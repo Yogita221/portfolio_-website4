@@ -1,0 +1,357 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100vh;
+    width: 100vw; 
+    font-family: "Roboto Slab", serif;
+    background-color: #f6efef;
+  
+
+ }
+ .nav{
+    background-color: #f6efef;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+ }
+ .left-nav{
+    padding-left: 120px;
+
+ }
+ .left-nav h2{
+    font-size: 1.2vw;
+    font-weight: 450;
+    color:  #280202;
+ }
+ .right-nav{
+    padding-right: 120px;
+    display: flex;
+    gap: 30px;
+    
+ }
+ .right-nav a{
+    text-decoration: none;
+    color:  #1b0101;
+    font-size: 0.9vw;
+   
+ }
+
+ .right-nav a:hover {
+    color: rgb(177, 21, 52);
+
+ }
+ .box{
+    height: 600px;
+    background-color: #f6efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .inner-box {
+    height: 600px;
+    width: 60vw;
+    background-color: #f6efef;
+ }
+ .inner-box h1{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 400;
+ }
+ .inner-box p{
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.6vw;
+ }
+ .center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+
+    
+ }
+ .center-button button{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #c94d31;
+ }
+ .center-button button:hover{
+    background-color: #1b0101;
+ }
+ .photo-box{
+    padding-top: 30px;
+    height: 700px;
+    background-color: #f6efef;
+    display: flex;
+    justify-content: space-between;
+ }
+ .photo-box img{
+    height: 600px;
+    width: 32vw;
+ }
+ .intro-box{
+  height: 1000px;
+  background-color: #e8d7d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .intro-box .intro-box1{
+    height: 1200px;
+    width: 60vw;
+    
+ }
+
+ .intro-box1 h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3vw;
+    font-weight: 400;
+ }
+ .intro-box1 img{
+    padding-top: 40px;
+    display: block;
+    margin: auto;
+ }
+ .intro-box1 p{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 2.32vw;
+    font-weight: 400;
+    font-family: "Unna", serif;
+ }
+ .experience-box{
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(https://static.wixstatic.com/media/c837a6_e67de9d5f53940578220e6c31916d983~mv2.jpg/v1/fill/w_1899,h_1000,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_e67de9d5f53940578220e6c31916d983~mv2.jpg);
+    background-size: cover;
+    background-position: center; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   
+    
+}
+.paragraph h1{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: "Unna", serif;
+
+}
+.paragraph{
+    padding-top: 30px;
+    height: 500px;
+    width: 36vw;
+   
+} 
+.paragraph p{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 1.3vw;
+}
+.family{
+   height: 300px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.left-family{
+   width: 50vw;
+   height: 300px;
+   background-color: #f6efef;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.left-family .family-session{
+   width: 30vw;
+   height: 300px;
+   background-color: #f6efef;
+}
+
+.left-family h2{
+   padding-top: 70px;
+   font-size: 2.5vw;
+   font-weight: 450;
+   font-family: "Unna", serif;
+  
+}
+.left-family p{
+   padding-top: 30px;
+   font-size: 1.1vw;
+   text-align: left;
+   
+}
+
+.right-family{
+   width: 50vw;
+   height: 300px;
+   background-color: #f6efef;
+   
+}
+.family-photoshoot{
+   height: 700px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.left-photoshoot{
+   width: 50vw;
+   height: 700px;
+   
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+   align-items: center;
+}
+.left-photoshoot .top{
+   height:270px ;
+   width: 41vw;
+  
+}
+.left-photoshoot .bottom{
+   height:270px ;
+   width: 41vw;
+  
+}
+.left-photoshoot img{
+   height:270px ;
+   width: 41vw;
+}
+
+.right-photoshoot{
+   width: 49vw;
+   height: 700px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.right-photoshoot .middle{
+   width: 38vw;
+   height: 600px;
+   
+
+}
+.right-photoshoot img{
+   width: 38vw;
+   height: 600px;
+}
+.client-gallaries{
+   height: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.client-gallary{
+   height: 650px;
+   width: 80vw;
+   background-color: #f6efef;
+  
+
+}
+.client-gallary p{
+   text-align: center;
+   padding-top: 20px;
+   font-size: 2vw;
+
+}
+.client-gallary h1{
+   text-align: center;
+   padding-top: 20px;
+   font-size: 5vw;
+   font-weight: 400;
+
+}
+.client-photo{
+   padding-top: 40px;
+   height: 400px;
+   display: flex;
+   justify-content: space-around;
+   
+}
+.client-photo img{
+   height: 400px;
+   width: 24vw;
+}
+.footer-section{
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content:space-evenly;
+}
+.footer1{
+   height: 150px;
+   width: 33vw;
+   
+}
+.footer1 p{
+   padding-left: 60px;
+   font-size: 0.9vw;
+   line-height: 20px;
+   text-align: initial;
+}
+.footer2{
+   height: 150px;
+   width: 15vw;
+   
+}
+.footer2 p{
+   padding-left: 60px;
+   font-size: 0.9vw;
+   line-height: 20px;
+   text-align: initial;
+}
+
+.footer3{
+   height: 150px;
+   width: 15vw;
+   
+}
+.footer3 p, a{
+   padding-left: 60px;
+   font-size: 0.9vw;
+   line-height: 20px;
+   text-align: initial;
+}
+
+.footer4{
+   height: 150px;
+   width: 15vw;
+   
+
+}
+
+
